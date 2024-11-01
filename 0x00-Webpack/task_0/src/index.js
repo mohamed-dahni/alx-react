@@ -1,13 +1,5 @@
-import $ from "jquery";
+const $ = require( "jquery" );
 
-
-const paragraphs = [
-    "<p>This is the first paragraph.</p>",
-    "<p>This is the second paragraph.</p>",
-    "<p>This is the third paragraph.</p>"
-];
-
-// Append each paragraph to the container
-paragraphs.forEach(paragraph => {
-    $("body").append(paragraph);
-});
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
